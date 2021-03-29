@@ -1,4 +1,4 @@
-To demonstrate errors in message passing, we use a blocking bug from Kubernetes.
+To demonstrate errors in message passing, I am going to use a blocking bug from Kubernetes.
 
 The finishReq function creates a child goroutine using an anonymous function at line 4 to handle a request—a common practice in
   Go server programs. The child goroutine executes fn() and
