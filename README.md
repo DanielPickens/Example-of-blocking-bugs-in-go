@@ -14,7 +14,7 @@ blocked forever. The fix is to change ch from an unbuffered
 channel to a buffered one, so that the child goroutine can
 always send the result even when the parent has exit.
 This bug demonstrates the complexity of using new features in Go and the difficulty in writing correct Go programs
-like this. Programmers have to have a clear understanding
+like this. Clearly this is evident of its need to have a clear understanding
 of goroutine creation with anonymous function, a feature
 Go proposes to ease the creation of goroutines, the usage
 of buffered vs. unbuffered channels, the non-determinism
