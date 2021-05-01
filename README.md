@@ -18,4 +18,4 @@ like this. Clearly this is evident of its need to have a clear understanding
 of goroutine creation with anonymous function, a feature
 Go proposes to ease the creation of goroutines, the usage
 of buffered vs. unbuffered channels, the non-determinism
-of waiting for multiple channel operations using select,
+of waiting for multiple channel operations using select to be specific.
